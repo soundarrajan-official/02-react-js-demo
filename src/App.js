@@ -27,8 +27,10 @@ function App() {
         <div className="App">
             <header>
                 <img src="react-logo-xs.png" alt="react-js-logo"/>
-                <h1>React Js</h1>
-                <p>React Js is a javascript library</p>
+                <div>
+                    <h1>React Js</h1>
+                    <p>i.e. using the React library for rendering UI</p>
+                </div>
             </header>
             <div id="tabs">
                 <menu>
