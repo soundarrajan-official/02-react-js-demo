@@ -17,6 +17,12 @@ const content = [
         "Official web page (react.dev)",
         "Next.js (Fullstack Framework)",
         "React Native (build native mobile apps with React"
+    ],
+    [
+        "Vanilla Javascript requires imperative programming",
+        "Imperative Programming: You define all the steps needed",
+        "React on the other hand embraces Declarative Programming",
+        "Declarative Programming: With React You define the goal and react figure outs how to do it"
     ]
 ]
 
@@ -54,6 +60,13 @@ function App() {
                         onClick={() => setActiveIndexOfListContent(2)}
                     >
                         Related Resources
+                    </button>
+                    <button
+                        id="btn-vanilla-javascript-vs-react-js"
+                        className={activeIndexOfListContent === 3 ? "active" : ""}
+                        onClick={() => setActiveIndexOfListContent(3)}
+                    >
+                        Vanilla Javascript Vs React Js
                     </button>
                 </menu>
                 <div id="tab-content">
